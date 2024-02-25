@@ -1261,8 +1261,8 @@ body {
 
 .button {
   border: 2px solid var(--color--primary);
+  background-color: var(--color--primary);
   color: var(--waves-library--white);
-  background-color: #c5a65d;
   padding: .625rem 1.5rem;
   font-size: .875rem;
   font-weight: 700;
