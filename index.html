@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Sat Mar 23 2024 16:25:49 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sun Mar 31 2024 08:14:52 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="65ff0037639572d383d5addd" data-wf-site="65993f566a8639197a404333">
 <head>
   <meta charset="utf-8">
@@ -30,7 +30,10 @@
   <!--  [Attributes by Finsweet] Disable scrolling  -->
   <script defer="" src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-scrolldisable@1/scrolldisable.js"></script>
   <!--  Finsweet Cookie Consent  -->
-  <script async="" src="https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js" fs-cc-mode="opt-in" fs-cc-endpoint="https://cookie-worker.developer-c70.workers.dev/"></script>
+  <script async="" src="https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js" fs-cc-mode="opt-in" fs-cc-endpoint="https://cookie-worker.developer-c70.workers.dev/"></script><!--  Calendly link widget begin  -->
+  <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script defer="" src="https://calendly.com/assets/external/widget.js" type="text/javascript" async=""></script>
+  <!--  Calendly link widget end  -->
 </head>
 <body class="body">
   <div data-animation="default" class="uui-navbar07_component w-nav" data-easing2="ease" fs-scrolldisable-element="smart-nav" data-easing="ease" data-collapse="medium" data-w-id="879368e8-5c88-f933-d56d-dbe94caf8d44" role="banner" data-duration="400">
@@ -188,7 +191,7 @@
             <div class="paragraph">Änderungen von Herren- und Damenmode, sowie Brautkleidern, Abikleidern, Abendkleidern</div>
           </div>
           <div class="uui-layout92_item">
-            <div class="uui-layout92_image-wrapper"><img src="images/IMG_20210717_203216_786-1.jpg" loading="lazy" sizes="(max-width: 479px) 98vw, (max-width: 767px) 90vw, (max-width: 991px) 46vw, 30vw" srcset="images/IMG_20210717_203216_786-1-p-500.jpg 500w, images/IMG_20210717_203216_786-1-p-800.jpg 800w, images/IMG_20210717_203216_786-1.jpg 1080w" alt="Mockup" class="uui-layout92_image bw"></div>
+            <div class="uui-layout92_image-wrapper"><img src="images/IMG_20210717_203216_786-1.jpg" loading="lazy" sizes="(max-width: 479px) 98vw, (max-width: 767px) 94vw, (max-width: 991px) 46vw, 30vw" srcset="images/IMG_20210717_203216_786-1-p-500.jpg 500w, images/IMG_20210717_203216_786-1-p-800.jpg 800w, images/IMG_20210717_203216_786-1.jpg 1080w" alt="Mockup" class="uui-layout92_image bw"></div>
             <h3 class="uui-heading-xxsmall">Extrawünsche</h3>
             <div class="uui-space-xxsmall"></div>
             <div class="paragraph">Natürlich fertige ich auch außergewöhnliche Extrawünsche für Sie an</div>
@@ -274,14 +277,29 @@
         <div id="w-node-bc948302-2145-b41a-6bcf-4ba6760dea61-83d5addd" class="contact-flex">
           <h2 class="heading-2">Kontakt</h2>
           <p class="paragraph mb-32">Das Atelier ist nicht öffentlich zugänglich. Vor dem Besuch bitte per Telefon oder Email einen Termin vereinbaren.</p>
-          <a href="tel:015225671429" class="call-button w-inline-block">
+          <a href="javascript:Calendly.initPopupWidget({url: &#x27;https://calendly.com/borgmannthomas4/termin?text_color=#1b1b1b&amp;primary_color=#c5a65d&#x27;})" class="meeting-button w-inline-block">
             <div class="div-block-12">
-              <div class="text-block-2">01522 567 1429</div><img src="images/call_white_24dp.svg" loading="lazy" alt="" class="image-3">
+              <div class="text-block-2">jetzt Termin buchen</div>
+              <div class="icon-button w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg></div>
             </div>
           </a>
-          <a href="mailto:kontakt@atelier-die-zaubernadel.de?subject=Terminanafrage" class="mail-button w-inline-block">
+          <a href="tel:015225671429" class="call-button is-secondary w-inline-block">
             <div class="div-block-12">
-              <div class="text-block-2">kontakt@atelier-die-zaubernadel.de</div><img src="images/send_white_24dp.svg" loading="lazy" alt="" class="image-3">
+              <div class="text-block-2">01522 567 1429</div><img src="images/call_white_24dp.svg" loading="lazy" alt="" class="icon-button">
+            </div>
+          </a>
+          <a href="mailto:kontakt@atelier-die-zaubernadel.de?subject=Terminanafrage" class="mail-button is-secondary w-inline-block">
+            <div class="div-block-12">
+              <div class="text-block-2">kontakt@atelier-die-zaubernadel.de</div>
+              <div class="icon-button w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg></div>
             </div>
           </a>
         </div>
