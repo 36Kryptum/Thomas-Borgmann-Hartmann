@@ -10,7 +10,6 @@
   --untitled-ui--gray100: #f2f4f7;
   --untitled-ui--gray900: #101828;
   --waves-library--white: white;
-  --waves-library--black: #131313;
   --kütüp-library--dark-slate-grey-x: #2e5261;
   --kütüp-library--dark-slate-grey: #264653;
   --untitled-ui--gray700: #344054;
@@ -21,6 +20,7 @@
   --untitled-ui--gray300: #d0d5dd;
   --untitled-ui--primary700: #6941c6;
   --untitled-ui--gray500: #667085;
+  --waves-library--black: #131313;
 }
 
 .w-layout-grid {
@@ -106,7 +106,7 @@ body {
 }
 
 .contact {
-  background-image: linear-gradient(289deg, rgba(197, 166, 93, .45), rgba(255, 255, 255, 0) 46%), linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../images/20240105-Thomas-Atelier-00002.jpeg');
+  background-image: linear-gradient(289deg, #c5a65d73, #fff0 46%), linear-gradient(#000c, #000c), url('../images/20240105-Thomas-Atelier-00002.jpeg');
   background-position: 0 0, 0 0, 50%;
   background-size: auto, auto, cover;
   padding-top: 128px;
@@ -426,7 +426,7 @@ body {
 }
 
 .price {
-  color: rgba(197, 166, 93, .8);
+  color: #c5a65dcc;
   flex: none;
   margin-bottom: 0;
   font-size: 16px;
@@ -459,7 +459,7 @@ body {
   color: var(--untitled-ui--white);
   align-items: center;
   padding: .75rem 1rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 1rem;
   font-weight: 600;
   transition: all .3s;
@@ -472,7 +472,7 @@ body {
 .uui-text-size-small {
   color: var(--color--offwhite);
   letter-spacing: normal;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: .875rem;
   line-height: 1.5;
 }
@@ -481,7 +481,7 @@ body {
   color: var(--color--primary);
   margin-top: 0;
   margin-bottom: .25rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: 600;
 }
 
@@ -533,7 +533,7 @@ body {
 }
 
 .uui-navbar07_dropdown-list {
-  box-shadow: 0 12px 16px -4px rgba(0, 0, 0, .08), 0 4px 6px -2px rgba(16, 24, 40, .03);
+  box-shadow: 0 12px 16px -4px #00000014, 0 4px 6px -2px #10182808;
 }
 
 .uui-navbar07_dropdown-list.w--open {
@@ -553,17 +553,14 @@ body {
   margin-right: 1rem;
   display: flex;
   position: absolute;
-  top: auto;
-  bottom: auto;
-  left: auto;
-  right: 0%;
+  inset: auto 0% auto auto;
 }
 
 .uui-navbar07_dropdown-toggle {
   color: var(--untitled-ui--white);
   align-items: center;
   padding: .75rem 2.5rem .75rem 1rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 1rem;
   font-weight: 600;
   transition: all .3s;
@@ -607,7 +604,7 @@ body {
 .uui-navbar07_component {
   z-index: 1;
   border-bottom: 2px solid var(--color--primary);
-  background-color: rgba(221, 221, 221, 0);
+  background-color: #ddd0;
   justify-content: center;
   align-items: center;
   min-height: 5rem;
@@ -634,7 +631,7 @@ body {
   border: 1px solid var(--color--primary);
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
-  background-color: rgba(197, 166, 93, 0);
+  background-color: #c5a65d00;
 }
 
 .div-block-12 {
@@ -676,7 +673,7 @@ body {
   border: 1px solid var(--color--primary);
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
-  background-color: rgba(197, 166, 93, 0);
+  background-color: #c5a65d00;
 }
 
 .soical-wrapper {
@@ -718,7 +715,7 @@ body {
   border-radius: 999rem;
   margin-left: .75rem;
   padding: .625rem;
-  box-shadow: 1px 1px 12px rgba(0, 0, 0, .1);
+  box-shadow: 1px 1px 12px #0000001a;
 }
 
 .fs-cc-prefs_space-small {
@@ -762,7 +759,7 @@ body {
 }
 
 .fs-cc-prefs_option {
-  border-bottom: 1px solid rgba(51, 51, 51, .15);
+  border-bottom: 1px solid #33333326;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -778,10 +775,7 @@ body {
   padding: 2rem;
   display: none;
   position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .fs-cc-prefs_space-medium {
@@ -802,11 +796,8 @@ body {
   font-size: 1.25rem;
   text-decoration: none;
   position: absolute;
-  top: -.75rem;
-  bottom: auto;
-  left: auto;
-  right: -.75rem;
-  box-shadow: -1px 1px 12px rgba(51, 51, 51, .1);
+  inset: -.75rem -.75rem auto auto;
+  box-shadow: -1px 1px 12px #3333331a;
 }
 
 .fs-cc-banner_trigger, .fs-cc-manager_trigger {
@@ -823,22 +814,16 @@ body {
   z-index: 999;
   display: none;
   position: fixed;
-  top: auto;
-  bottom: 1.25rem;
-  left: 1.25rem;
-  right: auto;
+  inset: auto auto 1.25rem 1.25rem;
 }
 
 .fs-cc-prefs_overlay {
   z-index: -1;
-  background-color: rgba(3, 5, 36, .6);
+  background-color: #03052499;
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .fs-cc-prefs_form {
@@ -873,10 +858,7 @@ body {
   margin-top: 0;
   margin-left: 0;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .fs-cc-manager_icon {
@@ -920,14 +902,11 @@ body {
 .fs-cc-banner_component {
   z-index: 998;
   background-color: #fff;
-  border-top: 1px solid rgba(67, 83, 255, .16);
+  border-top: 1px solid #4353ff29;
   padding: 1.5rem 2rem;
   display: none;
   position: fixed;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
 }
 
 .fs-cc-prefs_label {
@@ -1068,10 +1047,7 @@ body {
   height: 5%;
   display: flex;
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: 50%;
-  right: 0%;
+  inset: 0% 0% auto 50%;
   transform: translate(-50%);
 }
 
@@ -1217,7 +1193,7 @@ body {
   letter-spacing: normal;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 1.5;
@@ -1250,8 +1226,7 @@ body {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
-  align-items: start;
-  justify-items: center;
+  place-items: start center;
   margin-top: 4rem;
   margin-bottom: 4rem;
   display: grid;
@@ -1379,7 +1354,7 @@ body {
   }
 
   .hero {
-    background-image: linear-gradient(270deg, rgba(197, 166, 93, .5), rgba(255, 255, 255, 0) 45%), linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/hero.png');
+    background-image: linear-gradient(270deg, #c5a65d80, #fff0 45%), linear-gradient(#00000080, #00000080), url('../images/hero.png');
     background-position: 0 0, 0 0, 0%;
     background-repeat: repeat, repeat, no-repeat;
     background-size: auto, auto, cover;
@@ -1486,7 +1461,7 @@ body {
   }
 
   .uui-navbar07_menu-button.w--open {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
   }
 
   .uui-navbar07_button-wrapper {
@@ -1533,7 +1508,7 @@ body {
   }
 
   .uui-navbar07_dropdown-link:hover {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
   }
 
   .uui-navbar07_dropdown-link-list {
@@ -1559,10 +1534,7 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 0;
-    top: auto;
-    bottom: auto;
-    left: auto;
-    right: 0%;
+    inset: auto 0% auto auto;
   }
 
   .uui-navbar07_dropdown-toggle {
@@ -1806,10 +1778,7 @@ body {
   }
 
   .timeline_progress {
-    top: 0%;
-    bottom: auto;
-    left: 2.5em;
-    right: auto;
+    inset: 0% auto auto 2.5em;
   }
 
   .timeline_dot {
@@ -1944,10 +1913,7 @@ body {
 
   .fs-cc-banner_close {
     position: absolute;
-    top: -1.5rem;
-    bottom: auto;
-    left: auto;
-    right: .75rem;
+    inset: -1.5rem .75rem auto auto;
   }
 
   .fs-cc-banner_button {
