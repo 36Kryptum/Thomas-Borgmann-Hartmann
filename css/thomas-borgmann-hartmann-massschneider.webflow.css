@@ -106,8 +106,8 @@ body {
 }
 
 .contact {
-  background-image: linear-gradient(289deg, #c5a65d73, #fff0 46%), linear-gradient(#000c, #000c), url('../images/20240105-Thomas-Atelier-00002.jpeg');
-  background-position: 0 0, 0 0, 50%;
+  background-image: linear-gradient(289deg, #c5a65d73, #fff0 46%), linear-gradient(#000c, #000c), url('../images/Thomas_071.webp');
+  background-position: 0 0, 0 0, 40%;
   background-size: auto, auto, cover;
   padding-top: 128px;
   padding-bottom: 128px;
@@ -312,6 +312,10 @@ body {
 
 .nav-link.w--current {
   color: var(--color--primary);
+}
+
+.image-2 {
+  filter: brightness(91%);
 }
 
 .footer-title {
@@ -1373,7 +1377,7 @@ body {
   }
 
   .hero {
-    background-image: linear-gradient(270deg, #c5a65d80, #fff0 45%), linear-gradient(#00000080, #00000080), url('../images/hero.png');
+    background-image: linear-gradient(270deg, #c5a65d80, #fff0 45%), linear-gradient(#0009, #0009), url('../images/hero-squre.webp');
     background-position: 0 0, 0 0, 0%;
     background-repeat: repeat, repeat, no-repeat;
     background-size: auto, auto, cover;
@@ -1649,6 +1653,11 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .hero {
+    background-image: linear-gradient(270deg, #c5a65d80, #fff0 45%), linear-gradient(to bottom, null, null), url('../images/hero-squre.webp');
+    background-position: 0 0, 0 0, 0%;
+  }
+
   .footer-wrapper {
     flex-direction: column;
     align-items: center;
@@ -1878,6 +1887,11 @@ body {
   .container {
     padding-left: 16px;
     padding-right: 16px;
+  }
+
+  .hero {
+    background-image: linear-gradient(270deg, #c5a65d80, #fff0 45%), linear-gradient(to bottom, null, null), url('../images/hero-squre.webp');
+    background-position: 0 0, 0 0, 0%;
   }
 
   .heading-1.small-mobile {
